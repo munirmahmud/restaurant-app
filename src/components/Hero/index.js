@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../Navbar';
+import Sidebar from '../Sidebar';
 import { HeroBtn, HeroContainer, HeroContent, HeroH1, HeroItems, HeroP } from './HeroElements';
 
 
@@ -7,6 +8,7 @@ const Hero = () => {
     return (
         <HeroContainer>
             <Navbar />
+            <Sidebar />
             <HeroContent>
                 <HeroItems>
                     <HeroH1>Greatest Pizza Ever</HeroH1>
