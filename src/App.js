@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
-import Navbar from './components/Navbar';
+import Hero from './components/Hero';
 import { GlobalStyle } from './globalStyles';
 
 const App = () => {
@@ -8,7 +8,7 @@ const App = () => {
         <>
             <GlobalStyle />
             <Router>
-                <Navbar />
+                <Hero />
             </Router>
         </>
     )
