@@ -16,7 +16,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                 <SidebarRoute to="/">Order Now</SidebarRoute>
             </SideBtnWrap>
         </SidebarContainer>
-    )
-}
+    );
+};
 
-export default Sidebar
+export default Sidebar;

@@ -8,7 +8,7 @@ const Hero = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggle = () => {
-        setIsOpen(isOpen => !isOpen);
+        setIsOpen(!isOpen);
     };
 
     return (
@@ -23,7 +23,7 @@ const Hero = () => {
                 </HeroItems>
             </HeroContent>
         </HeroContainer>
-    )
-}
+    );
+};
 
-export default Hero
+export default Hero;
