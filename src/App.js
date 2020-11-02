@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
+import Feature from './components/Feature';
 import Hero from './components/Hero';
 import Products from './components/Products';
 import { productData } from './components/Products/data';
@@ -12,6 +13,7 @@ const App = () => {
             <Router>
                 <Hero />
                 <Products heading="Choose your favorite" data={productData} />
+                <Feature />                
             </Router>
         </>
     )
